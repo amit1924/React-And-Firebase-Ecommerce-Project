@@ -77,7 +77,7 @@ const Navbar = () => {
     </ul>
   );
   return (
-    <nav className="bg-yellow-600 sticky top-0">
+    <nav className="bg-red-600 sticky top-0">
       {/* main  */}
       <div className="lg:flex lg:justify-between items-center py-3 lg:px-3 ">
         {/* left  */}

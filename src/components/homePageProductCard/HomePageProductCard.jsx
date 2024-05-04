@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import MyContext from "../../context/MyContext";
-import Loader from "../loader/Loader";
+import Loader from "../../components/loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, deleteFromCart } from "../../redux/cartSlice";
 import toast from "react-hot-toast";
@@ -75,7 +75,7 @@ const HomePageProductCard = () => {
                     />
                     <div className="p-6">
                       <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                        E-bharat
+                        E-kart
                       </h2>
                       <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                         {title.substring(0, 25)}
